@@ -1,4 +1,4 @@
-// ----- Counters and comments array -----
+// ------ Counters and comments array ------
 let likes = 0;
 let dislikes = 0;
 let comments = [];
