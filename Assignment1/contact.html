@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Renad Alqahtani" />
+  <meta name="description" content="Contact Renad Alqahtani" />
+  <title>Contact - Renad Alqahtani</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <div class="badge">RA</div>
+      <div>
+        <h1>Renad Alqahtani</h1>
+        <p>Information Technology Student | ID: 2308081</p>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="labs.html">Labs</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="banner">
+      <h2>Let's talk</h2>
+      <p>Send me a question or some feedback. I will reply to your email.</p>
+    </section>
+
+    <div class="columns">
+      <aside>
+        <h2>Contact Info</h2>
+        <div class="info">
+          <p><strong>Email:</strong><br /><a href="mailto:STUDENT_ID@stu.kau.edu.sa">ralqahtani0181@stu.kau.edu.sa</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+966500000000">+966 55 506 5040</a></p>
+          <p><a href="https://github.com/RenadAQ" target="_blank">GitHub</a></p>
+          <p><a href="https://linkedin.com/in/renad-al-qahtani-62b931341" target="_blank">LinkedIn</a></p>
+        </div>
+      </aside>
+
+      <div class="content">
+        <section>
+          <h2>Contact Me</h2>
+
+          <form action="https://api.web3forms.com/submit" method="post">
+            <!-- Get a free access key from web3forms.com (it is sent to your email) -->
+            <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY" />
+            <input type="hidden" name="subject" value="New message from my CPIT-405 portfolio" />
+
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required />
+
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" required></textarea>
+
+            <div class="radio-group">
+              Message Type:
+              <input type="radio" name="message_type" id="inquiry" value="Inquiry" checked />
+              <label class="inline" for="inquiry">Inquiry</label>
+              <input type="radio" name="message_type" id="feedback" value="Feedback" />
+              <label class="inline" for="feedback">Feedback</label>
+            </div>
+
+            <button type="submit">Send</button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Renad Alqahtani - CPIT 405 Portfolio</p>
+  </footer>
+
+</body>
+</html>
