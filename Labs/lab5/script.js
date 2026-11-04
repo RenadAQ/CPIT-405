@@ -456,7 +456,7 @@ function addCell(row, text) {
     row.appendChild(cell);
 }
 
-// ----- Fill the table with a list of players -----
+// ------ Fill the table with a list of players ------
 function showPlayers(players) {
     // remove the old rows first
     tableBody.innerHTML = "";
