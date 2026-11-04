@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.table-filters {
+    display: block;
+    margin: 15px 0;
+}
+
+#search {
+    width: 250px;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+#team-filter {
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: #1d428a;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #cfe0ff;
+}
+
+/* ----- Dark mode (added by JS with classList.toggle) ----- */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode tr:nth-child(even) {
+    background-color: #1e1e1e;
+}
+
+.dark-mode tr:hover {
+    background-color: #33415c;
+}
