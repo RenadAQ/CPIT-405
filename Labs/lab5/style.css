@@ -61,7 +61,7 @@ tr:hover {
     background-color: #cfe0ff;
 }
 
-/* ----- Dark mode (added by JS with classList.toggle) ----- */
+/* ------ Dark mode (added by JS with classList.toggle) ------ */
 body.dark-mode {
     background-color: #121212;
     color: white;
