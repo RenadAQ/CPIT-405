@@ -272,6 +272,17 @@ button:hover {
   border-left-color: #6f7545;
 }
 
+.list.roles li {
+  padding-left: 0;
+  padding-top: 8px;
+  border-left: none;
+  border-top: 3px solid #b4573b;
+}
+
+.list.roles li:nth-child(2n) {
+  border-top-color: #6f7545;
+}
+
 /* ---------- Columns and cards ---------- */
 .split,
 .cards {
